@@ -15,8 +15,8 @@
 
         <!-- Belum ada backend -->
         <div class="row mb-4">
-          <div class="col-md-4 mt-4" v-for="product in products" :key="product.id">
-            <BeritaTerkini :product="product" />
+          <div class="col-md-4 mt-4" >
+            <BeritaTerkini />
           </div>
         </div>
       </div>
